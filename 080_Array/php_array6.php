@@ -7,10 +7,12 @@ $season = array(
     'autumn' => '秋', 
     'winter' => '冬'); 
 
-echo "每年的四季分別為：<br>";
-foreach ($season as $key => $value){
-	echo $key, "=>", $value, "<br>";
-}
+    echo "每年的四季分別為：<br>";
+    foreach ($season as $key => $value){
+ 	echo $key, "=>", $value, "<br>";
+ }
+
+
 
 
 ?>
