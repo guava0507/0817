@@ -7,16 +7,28 @@ echo "<hr>";
 $obj->weight = 10;  // 如果是 $obj->weight = -10; 呢
 echo $obj->weight;
 
-
-class CAnimal
+public class Animal
 {
-	
 	public $weight;
-	
-	public function makeNoise()
-	{
-		echo "CAnimal: makeNoise";
-	}
+	public 
+
+
+
+
+
+
+
 }
+
+// class CAnimal
+// {
+
+// 	public $weight;
+	
+// 	public function makeNoise()
+// 	{
+// 		echo "CAnimal: makeNoise";
+// 	}
+// }
 
 ?>

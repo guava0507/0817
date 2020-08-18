@@ -15,9 +15,8 @@ class CAnimal {
 	function __construct() {
 		foreach ( get_class_vars ( "CAnimal" ) as $varName => $varValue ) {
 			if (substr ( $varName, 0, 1 ) != "_")
-				unset ( $this->$varName );
+				unset ( $this->$varName ); //清除記憶體
 		}
-		
 		$this->weight = 0;
 	}
 	
