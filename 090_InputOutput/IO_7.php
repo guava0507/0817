@@ -2,7 +2,7 @@
 header("content-type: text/html; charset=utf-8");
  
 $sData = "";
-$f = fopen("data.txt", "r");
+$f = fopen("data.txt", "r");      //fopen f代號
 while (!feof($f))
 {
 	$line = fgets($f);
@@ -10,5 +10,6 @@ while (!feof($f))
 }
 fclose($f);
 echo $sData;
+
 
 ?>
